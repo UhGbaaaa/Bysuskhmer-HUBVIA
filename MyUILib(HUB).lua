@@ -999,7 +999,7 @@ function Library:Create(TitleText)
 			
 			Keybind.Name = "Keybind"
 			Keybind.Parent = NewTab
-			Keybind.BackgroundColor3 = Color3.fromRGB(255, 0, 0)				, 26)
+			Keybind.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Keybind.ClipsDescendants = true
 			Keybind.Size = UDim2.new(1, 0, 0, 32)
 			Keybind.AutoButtonColor = false
