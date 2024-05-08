@@ -116,7 +116,7 @@ function Library:Create(TitleText)
 	Main.Name = "Main"
 	Main.Parent = UILibrary
 	Main.AnchorPoint = Vector2.new(0.5, 0.5)
-	Main.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+	Main.BackgroundColor3 = Color3.fromRGB(0, 87, 255)
 	Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Main.Size = UDim2.new(0, 400, 0, 228)
 
@@ -125,7 +125,7 @@ function Library:Create(TitleText)
 
 	TopBar.Name = "TopBar"
 	TopBar.Parent = Main
-	TopBar.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+	TopBar.BackgroundColor3 = Color3.fromRGB(0, 87, 255)
 	TopBar.Size = UDim2.new(1, 0, 0, 30)
 
 	UICorner_2.CornerRadius = UDim.new(0, 6)
@@ -134,7 +134,7 @@ function Library:Create(TitleText)
 	Extension.Name = "Extension"
 	Extension.Parent = TopBar
 	Extension.AnchorPoint = Vector2.new(0, 1)
-	Extension.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+	Extension.BackgroundColor3 = Color3.fromRGB(0, 87, 255)
 	Extension.BorderSizePixel = 0
 	Extension.Position = UDim2.new(0, 0, 1, 0)
 	Extension.Size = UDim2.new(1, 0, 0.5, 0)
@@ -182,7 +182,7 @@ function Library:Create(TitleText)
 	Line.Name = "Line"
 	Line.Parent = TopBar
 	Line.AnchorPoint = Vector2.new(0, 1)
-	Line.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+	Line.BackgroundColor3 = Color3.fromRGB(0, 183, 255)
 	Line.BorderSizePixel = 0
 	Line.Position = UDim2.new(0, 0, 1, 0)
 	Line.Size = UDim2.new(1, 0, 0, 1)
@@ -210,7 +210,7 @@ function Library:Create(TitleText)
 
 	Navigation.Name = "Navigation"
 	Navigation.Parent = Main
-	Navigation.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+	Navigation.BackgroundColor3 = Color3.fromRGB(0, 87, 255)
 	Navigation.BorderSizePixel = 0
 	Navigation.Position = UDim2.new(0, 0, 0, 30)
 	Navigation.Size = UDim2.new(0, 120, 1, -30)
@@ -220,14 +220,14 @@ function Library:Create(TitleText)
 
 	Hide.Name = "Hide"
 	Hide.Parent = Navigation
-	Hide.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+	Hide.BackgroundColor3 = Color3.fromRGB(0, 87, 255)
 	Hide.BorderSizePixel = 0
 	Hide.Size = UDim2.new(1, 0, 0, 20)
 
 	Hide2.Name = "Hide2"
 	Hide2.Parent = Navigation
 	Hide2.AnchorPoint = Vector2.new(1, 0)
-	Hide2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+	Hide2.BackgroundColor3 = Color3.fromRGB(0, 87, 255)
 	Hide2.BorderSizePixel = 0
 	Hide2.Position = UDim2.new(1, 0, 0, 0)
 	Hide2.Size = UDim2.new(0, 20, 1, 0)
@@ -248,7 +248,7 @@ function Library:Create(TitleText)
 
 	Line_2.Name = "Line"
 	Line_2.Parent = Navigation
-	Line_2.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+	Line_2.BackgroundColor3 = Color3.fromRGB(0, 183, 255)
 	Line_2.BorderSizePixel = 0
 	Line_2.Position = UDim2.new(1, 0, 0, 0)
 	Line_2.Size = UDim2.new(0, 1, 1, 0)
@@ -256,7 +256,7 @@ function Library:Create(TitleText)
 	ContentContainer.Name = "ContentContainer"
 	ContentContainer.Parent = Main
 	ContentContainer.AnchorPoint = Vector2.new(1, 0)
-	ContentContainer.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+	ContentContainer.BackgroundColor3 = Color3.fromRGB(0, 87, 255)
 	ContentContainer.BackgroundTransparency = 1.000
 	ContentContainer.Position = UDim2.new(1, -6, 0, 36)
 	ContentContainer.Size = UDim2.new(1, -133, 1, -42)
