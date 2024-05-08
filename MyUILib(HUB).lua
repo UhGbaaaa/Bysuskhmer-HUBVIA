@@ -462,7 +462,7 @@ function Library:Create(TitleText)
 
 			Button.Name = "Button"
 			Button.Parent = NewTab
-			Button.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Button.ClipsDescendants = true
 			Button.Size = UDim2.new(1, 0, 0, 32)
 			Button.AutoButtonColor = false
@@ -548,7 +548,7 @@ function Library:Create(TitleText)
 			btn.MouseEnter:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+						BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 					}):Play()
 					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(162, 162, 162)
@@ -559,10 +559,10 @@ function Library:Create(TitleText)
 			btn.MouseLeave:Connect(function()
 				if not focusing then 
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+						BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 					}):Play()
 					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(81, 81, 81)
+						Color = Color3.fromRGB(255, 0, 0)
 					}):Play()
 					hovering = false
 				end
@@ -584,7 +584,7 @@ function Library:Create(TitleText)
 			
 			TextBox.Name = "TextBox"
 			TextBox.Parent = NewTab
-			TextBox.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			TextBox.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			TextBox.ClipsDescendants = true
 			TextBox.Size = UDim2.new(1, 0, 0, 32)
 			TextBox.AutoButtonColor  = false
@@ -747,7 +747,7 @@ function Library:Create(TitleText)
 			CheckmarkHolder.Name = "CheckmarkHolder"
 			CheckmarkHolder.Parent = Toggle
 			CheckmarkHolder.AnchorPoint = Vector2.new(1, 0.5)
-			CheckmarkHolder.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+			CheckmarkHolder.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			CheckmarkHolder.Position = UDim2.new(1, -3, 0.5, 0)
 			CheckmarkHolder.Size = UDim2.new(0, 16, 0, 16)
 
@@ -757,7 +757,7 @@ function Library:Create(TitleText)
 			UIStroke_3.Name = "UIStroke"
 			UIStroke_3.Parent = CheckmarkHolder
 			UIStroke_3.ApplyStrokeMode = "Border"
-			UIStroke_3.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke_3.Color = Color3.fromRGB(255, 0, 0)
 			UIStroke_3.LineJoinMode = "Round"
 			UIStroke_3.Thickness = 1
 			UIStroke_3.Transparency = 0
@@ -870,7 +870,7 @@ function Library:Create(TitleText)
 
 			Slider.Name = "Slider"
 			Slider.Parent = NewTab
-			Slider.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Slider.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Slider.Size = UDim2.new(1, 0, 0, 38)
 
 			UICorner_12.CornerRadius = UDim.new(0, 4)
@@ -999,7 +999,7 @@ function Library:Create(TitleText)
 			
 			Keybind.Name = "Keybind"
 			Keybind.Parent = NewTab
-			Keybind.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Keybind.BackgroundColor3 = Color3.fromRGB(255, 0, 0)				, 26)
 			Keybind.ClipsDescendants = true
 			Keybind.Size = UDim2.new(1, 0, 0, 32)
 			Keybind.AutoButtonColor = false
