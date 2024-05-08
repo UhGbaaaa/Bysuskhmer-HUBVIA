@@ -394,7 +394,7 @@ function Library:Create(TitleText)
 
 			Section.Name = "Section"
 			Section.Parent = NewTab
-			Section.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Section.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Section.BackgroundTransparency = 1.000
 			Section.Position = UDim2.new(0, 0, 0.430411309, 0)
 			Section.Size = UDim2.new(1, 0, -0.0561393984, 32)
@@ -699,7 +699,7 @@ function Library:Create(TitleText)
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = NewTab
-			Toggle.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Toggle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Toggle.ClipsDescendants = true
 			Toggle.Size = UDim2.new(1, 0, 0, 32)
 			Toggle.AutoButtonColor = false
